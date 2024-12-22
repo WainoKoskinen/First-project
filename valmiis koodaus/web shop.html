@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="webshoppi.css">
+</head>
+<body>
+    <form id="loginForm">
+        <input id="username" placeholder="Käyttäjänimi" type="text" required>
+        <input id="password" placeholder="Salasana" type="password" required>
+        <button type="submit" id="nappi">kirjaudu</button>
+    </form>
+    <p id="output"></p>
+
+    <h2 id="otsikko" >Web api</h2>
+   
+
+    
+    <button id="kotinä">koti</button>
+   
+
+
+<!-- ostokärryn ja orderin idt ja tekstit-->
+    <div id="cart">
+        <h2 id="ostoskori">Ostoskori</h2>
+        <ul id="cart-items"></ul>
+        <p>Kokonaissumma: $<span id="total-price">0.00</span></p>
+    </div>
+    <button id="place-order">Tilaa</button>
+    <p id="order-output"></p>
+
+
+ <!-- kategoriat otsikot ja idt-->
+    <div class="categories">
+        <h1 id="electronics">Elektroniikka</h1>
+        <h1 id="jewerly">Korut</h1>
+        <h1 id="mena">Miesten vaatteet</h1>
+        <h1 id="womens">Naisten vaatteet</h1>
+    </div>
+
+    <!-- idt mihin funkitot toimivat-->
+    <div class="container">
+        <div id="productlistelektroniikka"></div>
+        <div id="productlistjewerly"></div>
+        <div id="productlistmens"></div>
+        <div id="productlistwomens"></div>
+    </div>
+
+
+
+
+
+
+    <div id="alkunäyttö" class="alku"></div>
+    <script src="webshopi.js"></script>
+</body>
+</html>
+

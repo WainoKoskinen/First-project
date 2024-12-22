@@ -1,0 +1,125 @@
+h2 {
+  color: black;
+  font-size: 60px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px 0;
+}
+
+#loginForm{ display: flex;
+  flex-direction: column; 
+  align-items: flex-end; 
+ 
+}
+#output {
+  text-align: right; 
+}
+#nappi{
+ background-color: black;
+ color: white;
+}
+
+#ostoskori{
+  font-size: 35px;
+  text-align: left;
+}
+#place-order{
+  background-color: black;
+  color: white;
+}
+
+#alkunäyttö{
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 30px; 
+  justify-content: center; 
+  padding: 10px; 
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+}
+/* kaikki itemit alkunäytössä*/
+#kaikki{
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  text-align: center;
+  width: auto;
+  height: auto;
+  flex-shrink: 0;
+  display: inline-block;
+  box-sizing: border-box;
+
+}
+
+
+#productlistelektroniikka,
+#productlistjewerly,
+#productlistmens,
+#productlistwomens {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding: 10px;
+  display: none;  
+ 
+}
+
+
+.elektrocss,
+.jewerlyncss,
+.menscss,
+.womenscss {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+text-align: center;
+  width: 400px;
+  height: auto;
+  flex-shrink: 0;
+  display: inline-block;
+  box-sizing: border-box;
+
+}
+
+
+.categories {
+  display: flex;
+  justify-content: space-between;  
+  margin-bottom: 20px;
+}
+
+.categories h1 {
+  color: black;
+  font-size: 40px;
+  cursor: pointer;  
+}
+
+
+.categories h1 {
+  text-align: center;
+}
+
+/*kotinäppäin*/
+#kotinä{
+  padding: 15px 30px;
+  font-size: 18px;
+  width: auto;  
+  height: 50px; 
+  border-radius: 10px; 
+  background-color: black; 
+  color: white; 
+  border: none; 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  float: right
+}
+
